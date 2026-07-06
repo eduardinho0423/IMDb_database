@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        try {
-            ArrayList<TitleBasic> dadosOriginais = TitleBasicLoader.load("DatabaseTeste/title.basics.sample.tsv");
+        try {                                                                                       // nao tem simple
+            ArrayList<TitleBasic> dadosOriginais = TitleBasicLoader.load("DatabaseTeste/title.basics.tsv");
             System.out.println("Registros carregados: " + dadosOriginais.size());
 
             Scanner scanner = new Scanner(System.in);
